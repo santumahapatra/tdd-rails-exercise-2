@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'static_pages_controller'
 
 describe StaticPagesController do
   describe "#home" do
