@@ -4,4 +4,11 @@ class StaticPagesController < ApplicationController
 
   def search
   end
+
+  def status
+    render 'results'
+  end
+
+  def results
+  end
 end

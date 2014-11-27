@@ -3,6 +3,8 @@ TestDrivenExercise::Application.routes.draw do
   root 'static_pages#home'
   get 'search' => 'static_pages#home'
   post 'search' => 'static_pages#search'
+  get 'status' => 'static_pages#status'
+  get 'results' => 'static_pages#results'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
