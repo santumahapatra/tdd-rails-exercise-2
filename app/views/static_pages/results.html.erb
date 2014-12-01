@@ -1,5 +1,11 @@
 <h1>Results</h1>
-<div>Hello World</div>
 
 <ul class="results">
+  <%= @ticket_results.each do |result| %>
+    <li>
+      <div>Ticket</div>
+      <div>From: <%= result.from %></div>
+      <div>To: <%= result.to %></div>
+    </li>
+  <% end %>
 </ul>
